@@ -1,0 +1,31 @@
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 0 0 2rem 0;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: 0 0 2rem 0;
+}
+
+.cta-button {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #f25f4c;
+  color: rgb(79, 25, 25);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #f2886b;
+}
