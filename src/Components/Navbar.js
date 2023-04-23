@@ -5,9 +5,9 @@ function Navbar() {
     return (
         <nav className="navbar">
             <div className="navbar-container">
-                <p className="navbar-logo">
+                <span className="navbar-logo">
                     Korean Language Academy
-                </p>
+                </span>
                 <ul className="navbar-menu">
                     <li className="navbar-item">
                         <Link to="/" className="navbar-link">
