@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
   background-color: #f8f8f8;
   border-top: 1px solid #ddd;
   padding: 20px 0;
@@ -16,4 +16,39 @@
     max-width: 960px;
     margin: 0 auto;
   }
+} */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-icons {
+  display: flex;
+}
+
+.footer-icon {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 25px;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-icon:hover {
+  color: #999;
 }

@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import image from '../flag.jpg';
 
 function Navbar() {
     return (
         <nav className="navbar">
             <div className="navbar-container">
-                <span className="navbar-logo">
-                    Korean Language Academy
-                </span>
+                <div className="navbar-logo-container">
+                    <img src={image} alt="South Korean Flag" className="navbar-logo-image" />
+                    <span className="navbar-logo-text">Korean Language Academy</span>
+                </div>
                 <ul className="navbar-menu">
                     <li className="navbar-item">
                         <Link to="/" className="navbar-link">

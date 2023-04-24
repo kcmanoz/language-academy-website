@@ -12,7 +12,7 @@
 
 .home-image {
   width: 300px;
-  margin-right: 20px;
+  margin-left: 30px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
@@ -22,6 +22,7 @@
   font-weight: bold;
   color: #333;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .home-section {
@@ -33,6 +34,7 @@
   font-weight: bold;
   color: #333;
   margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .home-section-list {
@@ -43,13 +45,25 @@
 
 .home-section-list li {
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
-  color: #666;
+  color: #2d2828;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 20px;
+  position: relative;
+}
+
+.home-section-list li::before {
+  content: "➤";
+  font-size: 18px;
+  position: absolute;
+  left: 0;
+  color: #333;
 }
 
 .home-section-text {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
-  color: #666;
+  color: #1d1717;
+  font-family: "Open Sans", sans-serif;
 }
