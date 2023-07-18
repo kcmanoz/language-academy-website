@@ -1,55 +1,74 @@
 .home-container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 60px 20px;
+  text-align: justify;
+  color: #333;
+  background: #f8f8f8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
 }
 
 .home-header {
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.home-title-container {
+  max-width: 60%;
 }
 
 .home-image {
-  width: 300px;
-  margin-left: 30px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 35%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .home-title {
-  font-size: 36px;
-  font-weight: bold;
-  color: #333;
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #2f4858;
+  margin-bottom: 20px;
+}
+
+.home-subtitle {
+  font-size: 20px;
+  color: #4f6367;
 }
 
 .home-section {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
 }
 
 .home-section-title {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-  margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #2f4858;
+  margin-bottom: 30px;
 }
 
 .home-section-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  line-height: 1.6;
 }
 
 .home-section-list li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 18px;
-  line-height: 1.5;
-  color: #2d2828;
-  font-family: "Open Sans", sans-serif;
-  padding-left: 20px;
+  color: #4f6367;
   position: relative;
 }
 
@@ -57,13 +76,12 @@
   content: "➤";
   font-size: 18px;
   position: absolute;
-  left: 0;
-  color: #333;
+  left: -25px;
+  color: #2f4858;
 }
 
 .home-section-text {
   font-size: 18px;
-  line-height: 1.5;
-  color: #1d1717;
-  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  color: #4f6367;
 }
