@@ -6,10 +6,10 @@ function Navbar() {
     return (
         <nav className="navbar">
             <div className="navbar-container">
-                <div className="navbar-logo-container">
+                <Link to="/" className="navbar-logo-container">
                     <img src={image} alt="South Korean Flag" className="navbar-logo-image" />
                     <span className="navbar-logo-text">Korean Language Academy</span>
-                </div>
+                </Link>
                 <ul className="navbar-menu">
                     <li className="navbar-item">
                         <Link to="/" className="navbar-link">

@@ -9,7 +9,7 @@ function Home() {
                     <h1 className="home-title">Welcome to the Korean Language Academy!</h1>
                     <p className="home-subtitle">Learn Korean with experienced instructors and immerse yourself in the culture.</p>
                 </div>
-                <img src={image} alt="Korean Language" className="home-image" />
+                <img src={image} alt="Korean Language Lessons" className="home-image" />
             </div>
             <div className="home-section">
                 <h2 className="home-section-title">What We Offer</h2>
