@@ -1,11 +1,12 @@
 .about-container {
-  max-width: 800px;
+  max-width: 50%;
   margin: 0 auto;
   padding: 40px;
+  min-height: calc(100vh - 228px);
 }
 
 .about-title {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   color: #1a1a1a;
   margin-bottom: 20px;

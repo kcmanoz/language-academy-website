@@ -1,5 +1,5 @@
 .home-container {
-  max-width: 1200px;
+  max-width: 65%;
   margin: 0 auto;
   padding: 60px 20px;
   text-align: justify;
@@ -84,4 +84,20 @@
   font-size: 18px;
   line-height: 1.6;
   color: #4f6367;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 40px 10px;
+  }
+
+  .home-title {
+    font-size: 28px;
+  }
+
+  .home-subtitle {
+    font-size: 18px;
+  }
 }
