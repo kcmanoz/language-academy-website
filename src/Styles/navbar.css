@@ -20,15 +20,25 @@
 }
 
 .navbar-logo-image {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   margin-right: 10px;
+  border-radius: 3px;
+}
+
+.navbar-logo-image:hover {
+  transform: scale(1.1);
+  background-color: #94d886;
 }
 
 .navbar-logo-text {
   font-size: 28px;
   font-weight: bold;
   color: #ecf0f1;
+}
+
+.navbar-logo-text:hover {
+  color: #b3b6b7;
 }
 
 .navbar-menu {

@@ -1,3 +1,11 @@
+## Language Academy Website
+
+This is simple and interactive website designed for the Korean Language Academy and was built using React, JavaScript, HTML and CSS.
+
+## View live at:
+
+https://language-academy.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

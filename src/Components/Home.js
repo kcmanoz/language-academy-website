@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../language.jpg';
+import image from '../Images/language-lesson.jpg';
 
 function Home() {
     return (
@@ -9,7 +9,7 @@ function Home() {
                     <h1 className="home-title">Welcome to the Korean Language Academy!</h1>
                     <p className="home-subtitle">Learn Korean language with experienced instructors and immerse yourself in the Korean culture.</p>
                 </div>
-                <img src={image} alt="Korean Language Lessons" className="home-image" />
+                <img src={image} alt="Korean Language Lesson" className="home-image" />
             </div>
             <div className="home-section">
                 <h2 className="home-section-title">What We Offer</h2>
