@@ -1,6 +1,6 @@
 ## Language Academy Website
 
-This is simple and interactive website designed for the Korean Language Academy and was built using React, JavaScript, HTML and CSS.
+This is a simple and interactive website designed for the Korean Language Academy and was built using React, JavaScript, HTML and CSS.
 
 ## View live at:
 
