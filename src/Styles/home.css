@@ -100,3 +100,44 @@
     font-size: 18px;
   }
 }
+
+@media (max-width: 576px) {
+  .home-container {
+    max-width: 95%;
+    padding: 30px 10px;
+  }
+
+  .home-header {
+    flex-direction: column;
+  }
+
+  .home-title-container,
+  .home-image {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .home-title {
+    font-size: 24px;
+  }
+
+  .home-subtitle {
+    font-size: 16px;
+  }
+
+  .home-section-title {
+    font-size: 26px;
+  }
+
+  .home-section-list li {
+    font-size: 16px;
+  }
+
+  .home-section-text {
+    font-size: 16px;
+  }
+
+  .home-section-list li::before {
+    left: -20px;
+  }
+}
