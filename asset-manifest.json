@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.595e2a35.css",
-    "main.js": "/website/static/js/main.fba121b2.js",
-    "static/media/language-lesson.jpg": "/website/static/media/language-lesson.717b55cef1fad8a9f1fd.jpg",
-    "static/media/flag.jpg": "/website/static/media/flag.a2c8f401b8e8c229f4bf.jpg",
-    "static/media/background-img.jpg": "/website/static/media/background-img.d8c4f6afa555886af4f6.jpg",
-    "index.html": "/website/index.html",
-    "main.595e2a35.css.map": "/website/static/css/main.595e2a35.css.map",
-    "main.fba121b2.js.map": "/website/static/js/main.fba121b2.js.map"
+    "main.css": "/language-academy-website/static/css/main.aab63584.css",
+    "main.js": "/language-academy-website/static/js/main.aaa262fe.js",
+    "static/media/language-lesson.jpg": "/language-academy-website/static/media/language-lesson.717b55cef1fad8a9f1fd.jpg",
+    "static/media/flag.jpg": "/language-academy-website/static/media/flag.a2c8f401b8e8c229f4bf.jpg",
+    "static/media/background-img.jpg": "/language-academy-website/static/media/background-img.d8c4f6afa555886af4f6.jpg",
+    "index.html": "/language-academy-website/index.html",
+    "main.aab63584.css.map": "/language-academy-website/static/css/main.aab63584.css.map",
+    "main.aaa262fe.js.map": "/language-academy-website/static/js/main.aaa262fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.595e2a35.css",
-    "static/js/main.fba121b2.js"
+    "static/css/main.aab63584.css",
+    "static/js/main.aaa262fe.js"
   ]
 }
